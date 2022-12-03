@@ -1,3 +1,5 @@
+
+
 .masthead-pubs {
   background-image: url("../img/header.jpg");
   height: 280px;
@@ -913,5 +915,13 @@ label {
     position: sticky;
     top: 0;
     z-index: 1020;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-responsive {
+	padding: 5% 5%;
+    font-size:90%;
+    line-height: 1;
   }
 }
