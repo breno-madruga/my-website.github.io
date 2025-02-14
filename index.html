@@ -61,7 +61,7 @@
             <hr class="light">
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-white mb-5">Data Science Researcher | Mobile and Web Developer | IT Technician</p>
+            <p class="text-white mb-5">Data Science Researcher | Web Developer | IT Technician</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
@@ -78,7 +78,7 @@
             <h2 class="section-heading text-white">Who am I?</h2>
             <hr class="light my-4">
             <p class="text-white mb-3 text-justify">
-				Since 2014, I am an IT Technician, Mobile/Web Developer and Data Science Researcher at
+				Since 2014, I am an IT Technician, Web Developer and Data Science Researcher at
 				<a class="text-white" href="http://www.ufs.br">Federal University of Sergipe</a>.
 				Also, I have a Bachelor in Information Systems and Master Degree (MSc.) in Computer Science at
 				<a class="text-white" href="http://www.ufs.br">Federal University of Sergipe</a>.
@@ -87,8 +87,8 @@
 			</p>
             
             <p class="text-white mb-3 text-justify">
-				My research interests are Artificial Intelligence, Data Science, Data Mining, Machine Learning, Text Mining,
-				Natural Language Processing (NLP), Sentiment Analysis, Experimentation in Computing, Graph Theory,
+				My research interests are Artificial Intelligence, Data Science, Machine Learning, Large Language Models (LLMs),
+				Natural Language Processing (NLP), Experimentation in Computing, Graph Theory,
 				Graph Analysis, Graph Representation Learning, Graph Machine Learning and Complex Network Analysis.
 			</p>
             
@@ -125,39 +125,35 @@
             <div class="service-box mt-5 mx-auto">
               <h3 class="mb-3">Data Science</h3>
               <div class="service-box">
+				<img src="img/icons/data_science/anaconda.svg" alt="Anaconda"/>
 				<img src="img/icons/data_science/python.svg" alt="Python"/>
 				<img src="img/icons/data_science/pandas.svg" alt="pandas"/>
 				<img src="img/icons/data_science/numpy.svg" alt="Numpy"/>
-				<img src="img/icons/data_science/tensorflow.svg" alt="Tensorflow"/>
               </div>
               <div class="service-box">
-				<img src="img/icons/data_science/opencv.svg" alt="OpenCV"/>
-				<img src="img/icons/data_science/r-project.svg" alt="R Project"/>
-				<img src="img/icons/data_science/power-bi.svg" alt="Power BI"/>
-				<img src="img/icons/data_science/anaconda.svg" alt="Anaconda"/>
+				<img src="img/icons/data_science/gephi.svg" alt="Gephi"/>
+				<img src="img/icons/data_science/pytorch.svg" alt="PyTorch"/>
+				<img src="img/icons/data_science/hugging-face.svg" alt="Hugging Face"/>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <h3 class="mb-3">Mobile and Web Development</h3>
+              <h3 class="mb-3">Web Development</h3>
               <div class="service-box">
-				<img src="img/icons/dev/android-studio.svg" alt="Android Studio"/>
-				<img src="img/icons/dev/flutter.svg" alt="Flutter"/>
 				<img src="img/icons/dev/visual-studio.svg" alt="Visual Studio"/>
 				<img src="img/icons/dev/vs-code.svg" alt="Visual Studio Code"/>
+				<img src="img/icons/dev/net-framework.svg" alt=".NET Framework Core"/>
+				<img src="img/icons/dev/c-sharp.svg" alt="C#"/>
               </div>
               <div class="service-box">
 				<img src="img/icons/dev/html5.svg" alt="HTML 5"/>
 				<img src="img/icons/dev/css3.svg" alt="CSS 3"/>
 				<img src="img/icons/dev/javascript.svg" alt="JavaScript"/>
-				<img src="img/icons/dev/flask.svg" alt="Flask"/>
+				<img src="img/icons/dev/fastapi.svg" alt="FastAPI"/>
               </div>
               <div class="service-box">
-				<img src="img/icons/dev/net-framework.svg" alt=".NET Framework Core"/>
 				<img src="img/icons/dev/java.svg" alt="Java"/>
-				<img src="img/icons/dev/c-sharp.svg" alt="C#"/>
-				<img src="img/icons/dev/php.svg" alt="PHP"/>
               </div>
             </div>
           </div>
@@ -300,11 +296,13 @@
 							</a>
 						</li>
 					</ul>
-					<div class="small text-center text-muted fst-italic">Copyright &copy; 2023 Breno Santos |
+					
+					<div class="small text-center text-muted fst-italic">Copyright &copy; <span id="ano"></span> Breno Santos |
 						Design: <a href="https://startbootstrap.com" target="_blank"> Start Bootstrap </a> |
 						Photo by <a href="https://unsplash.com/@ev" target="_blank"> EV Style Design </a> on
 						<a href="https://unsplash.com" target="_blank"> Unsplash </a> </div>
 				</div>
+				<script> document.getElementById('ano').textContent = new Date().getFullYear(); </script>
 			</div>
 		</div>
 	</footer>
